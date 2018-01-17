@@ -1,0 +1,106 @@
+*{
+	font-family: 'Quicksand', sans-serif;
+}
+
+#navbar-1{
+	float: left;
+	width: 100%;
+	background-image: url(../img/images/Product_01.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 312px;
+}
+
+#navbar-1 .contenido_header{
+	float: right;
+	width: 50%;
+}
+
+#navbar-1 .contenido_header .inicio{
+	margin-left: 25%;
+	margin-top: 105px;
+    margin-bottom: 32px;
+}
+
+#navbar-1 .contenido_header .inicio .lista-principal li{
+	display: inline;
+	color: white;
+	border-top: 3px solid #407d9e;
+	margin: 5px;
+}
+
+#navbar-1 .contenido_header .inicio .lista-principal li a{
+	text-decoration: none;
+	color: white;
+}
+
+#navbar-1 .contenido_header .datos-contacto{
+	display: block;
+	background-color: #407d9e;
+	color: white;
+	border-radius: 5px;
+	float: right;
+	padding-left: 35px;
+    padding-right: 100px;
+}
+
+.navbar{
+	overflow: hidden;
+	background-color: #407d9e;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.clips{
+	padding: 80px;
+    background-color: black;
+    border-top: 10px solid #407d9e;
+    border-bottom: 10px solid #407d9e;
+}
+
+.clips .title-blue{
+	color: #407d9e;;
+}
+
+#menu-down{
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 10px solid #407d9e;
+}
+
+#menu-down .inicio .lista-principal li{
+	display: inline;
+}
+
+#menu-down .inicio .lista-principal li a{
+	text-decoration: none;
+	color: white;
+	margin: 5px;
+}
+
+#menu-down .inicio .lista-principal li:hover{
+	border-bottom: 3px solid #407d9e;
+}
+
+footer{
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+footer h4{
+	color: #407d9e;
+	margin: 0px;
+}
+
+footer p{
+	color: white;
+	margin: 0px;
+}
+
+
+
