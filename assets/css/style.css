@@ -2,10 +2,30 @@
 	font-family: 'Quicksand', sans-serif;
 }
 
+body{
+	overflow-x: hidden;
+}
+
+footer{
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+footer h4{
+	color: #407d9e;
+	margin: 0px;
+}
+
+footer p{
+	color: white;
+	margin: 0px;
+}
+
 #navbar-1{
 	float: left;
 	width: 100%;
-	background-image: url(../img/images/Product_01.png);
+	background-image: url(../img/Product_01.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -45,14 +65,22 @@
     padding-right: 100px;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #144159;
+}
+
 .navbar{
 	overflow: hidden;
 	background-color: #407d9e;
+	margin-bottom: 0px;
 }
 
 .navbar-default .navbar-nav>li>a {
     color: white;
 }
+
+/* HOME */
 
 .clips{
 	padding: 80px;
@@ -86,21 +114,46 @@
 	border-bottom: 3px solid #407d9e;
 }
 
-footer{
-	background-color: black;
-	padding-top: 10px;
-	padding-bottom: 30px;
+/* SINGLE A */
+
+#header-inicio .container-fluid .banner-1{
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	width: 100%;
 }
 
-footer h4{
-	color: #407d9e;
-	margin: 0px;
+.container-a{
+	padding: 75px;
 }
-
-footer p{
+.container-b{
+	padding: 75px;
+}
+.container-a ul li{
+	list-style-type: none;
+}
+.container-b ul li{
+	list-style-type: none;
+}
+.title-bold{
+	font-weight: bold;
+}
+#lista-menu{
+	background-color: #144159;
+}
+#lista-menu ul{
+	margin-top: 10px;
+	margin-left: 103px;
+}
+#lista-menu ul li{
+	list-style-type: none;
+	display: inline;
+	text-decoration: none;
+	margin-right: 15px;
+}
+#lista-menu a{
 	color: white;
-	margin: 0px;
-}
 
+}
 
 
