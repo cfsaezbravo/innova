@@ -114,6 +114,13 @@ footer p{
 	border-bottom: 3px solid #407d9e;
 }
 
+#header-inicio .container-banner {
+    background-size: cover;
+    height: 429px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* SINGLE A */
 
 #header-inicio .container-fluid .banner-1{
@@ -132,8 +139,20 @@ footer p{
 .container-a ul li{
 	list-style-type: none;
 }
+.container-b ul{
+	padding-left: 0px;
+}
 .container-b ul li{
 	list-style-type: none;
+	background-color: #79b2d0;
+    width: 270px;
+    border-radius: 11px;
+    padding: 3px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.container-b ul li a{
+	color: black;
 }
 .title-bold{
 	font-weight: bold;
@@ -141,19 +160,27 @@ footer p{
 #lista-menu{
 	background-color: #144159;
 }
-#lista-menu ul{
+#lista-menu-2{
+	background-color: #1c5a7b;
+}
+#lista-menu ul, #lista-menu-2 ul{
 	margin-top: 10px;
 	margin-left: 103px;
 }
-#lista-menu ul li{
+#lista-menu ul li, #lista-menu-2 ul li{
 	list-style-type: none;
 	display: inline;
 	text-decoration: none;
-	margin-right: 15px;
+	margin: 30px;
 }
-#lista-menu a{
+#lista-menu a, #lista-menu-2 a{
 	color: white;
-
+}
+.container-sportstibia{
+	background-image: url(img/banner-tibia-activmotion.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
 }
 
 
