@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<!-- CSS local -->
 	<link rel="stylesheet" href="assets/css/style.css">
     <!-- Tipografías -->
@@ -35,43 +35,34 @@
 		</div>
 	</section>
 
-	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	    </div>
-
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
-	        <li><a href="index.html">PRODUCTS<span class="sr-only">(current)</span></a></li>
-	        <li class="active"><a href="singlea.html">SINGLE USE</a></li>
-	        <li><a href="upper_alians_clavicle.html">UPPER LIMB & HAND<span class="sr-only"></span></a></li>
-	        <li><a href="lower_foot_large.html">LOWER LIMB & FOOT<span class="sr-only"></span></a></li>
-	        <li><a href="sports_tibia_activmotion.html">SPORTS MEDICINE<span class="sr-only"></span></a></li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
+	<nav class="nav">
+	  <a id="implantes" class="nav-link" href="#">IMPLANTES ESTERILIZADOS</a>
+	  <a id="superior" class="nav-link" href="#">EXTREMIDAD SUPERIOR Y MANO</a>
+	  <a class="nav-link" href="#">EXTREMIDAD INFERIOR Y PIE</a>
+	  <a class="nav-link" href="#">MEDICINA DEPORTIVA</a>
 	</nav>
-
-	<div id="lista-menu" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	
+	<div id="lista-menu" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: none;">
 		<ul>
-			<li><a href="upper_alians_clavicle.html">CLAVICLE</a></li>
-			<li><a href="upper_humerus_alians.html">HUMERUS</a></li>
-			<li><a href="upper_radius_alians_ulna.html">RADIUS & ULNA</a></li>
-			<li><a href="upper_hand_handmotion.html">HAND</a></li>
+			<li><a href="singlea.html">INITIAL A</a></li>
+			<li><a href="singlec.html">INITIAL C</a></li>
+			<li><a href="singler.html">INITIAL R</a></li>
+			<li><a href="singles.html">INITIAL S</a></li>
 		</ul>
 	</div>
 
-	<div id="lista-menu-2" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	<div id="lista-menu-2" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: none;">
 		<ul>
-			<li><a href="upper_alians_clavicle.html">ALIANS CLAVICLE</a></li>
+			<li><a id="clavicula" href="upper_alians_clavicle.html">CLAVICULA</a></li>
+			<li><a href="singlec.html">HUMERO</a></li>
+			<li><a href="singler.html">RADIO Y ULNA</a></li>
+			<li><a href="singles.html">MANO</a></li>
+		</ul>
+	</div>
+
+	<div id="lista-menu-3" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: none;">
+		<ul>
+			<li><a href="#">ALIANS CLAVICULA</a></li>
 		</ul>
 	</div>
 	
@@ -184,6 +175,9 @@
 	
 
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>

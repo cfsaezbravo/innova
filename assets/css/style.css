@@ -177,21 +177,24 @@ footer p{
 	background-color: #144159;
 }
 #lista-menu-2{
+	background-color: #144159;
+}
+#lista-menu-3{
 	background-color: #1c5a7b;
 }
-#lista-menu ul, #lista-menu-2 ul{
+#lista-menu ul, #lista-menu-2 ul, #lista-menu-3 ul{
 	margin-left: 123px;
     margin-bottom: 0px;
     height: 40px;
     padding-top: 7px;
 }
-#lista-menu ul li, #lista-menu-2 ul li{
+#lista-menu ul li, #lista-menu-2 ul li, #lista-menu-3 ul li{
 	list-style-type: none;
 	display: inline;
 	text-decoration: none;
 	margin: 30px;
 }
-#lista-menu a, #lista-menu-2 a{
+#lista-menu a, #lista-menu-2 a, #lista-menu-3 a{
 	color: white;
 }
 .container-sportstibia{
