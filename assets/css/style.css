@@ -21,7 +21,14 @@ footer p{
 	color: white;
 	margin: 0px;
 }
-
+.nav {
+    display: inline-flex;
+    background-color: #407d9e;
+    width: 100%;
+}
+.nav-link {
+    color: white;
+}
 #navbar-1{
 	float: left;
 	width: 100%;
@@ -34,13 +41,18 @@ footer p{
 
 #navbar-1 .contenido_header{
 	float: right;
-	width: 50%;
+	width: 100%;
 }
 
 #navbar-1 .contenido_header .inicio{
 	margin-left: 25%;
 	margin-top: 105px;
     margin-bottom: 32px;
+}
+
+#navbar-1 .contenido_header .inicio .lista-principal {
+    position: absolute;
+    right: 0;
 }
 
 #navbar-1 .contenido_header .inicio .lista-principal li{
@@ -56,13 +68,14 @@ footer p{
 }
 
 #navbar-1 .contenido_header .datos-contacto{
-	display: block;
-	background-color: #407d9e;
-	color: white;
-	border-radius: 5px;
-	float: right;
-	padding-left: 35px;
-    padding-right: 100px;
+	position: absolute;
+    background-color: #407d9e;
+    color: white;
+    border-radius: 5px;
+    padding-left: 35px;
+    width: 300px;
+    right: 0;
+    top: 165px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -182,5 +195,11 @@ footer p{
 	background-position: center;
 	height: 100vh;
 }
+.w-100 {
+    width: 50% !important;
+    margin: 0 auto;
+}
+
+
 
 
