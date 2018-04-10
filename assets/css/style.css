@@ -76,6 +76,7 @@ footer p{
     width: 300px;
     right: 0;
     top: 165px;
+    padding-top: 1%;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -96,10 +97,9 @@ footer p{
 /* HOME */
 
 .clips{
-	padding: 80px;
+	padding: 50px;
     background-color: black;
     border-top: 10px solid #407d9e;
-    border-bottom: 10px solid #407d9e;
 }
 
 .clips .title-blue{
@@ -111,6 +111,7 @@ footer p{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	border-bottom: 10px solid #407d9e;
+	border-top: 10px solid #407d9e;
 }
 
 #menu-down .inicio .lista-principal li{
@@ -215,7 +216,24 @@ footer p{
 .carousel {
     background-color: black;
 }
-
+.carousel-control-next {
+    right: 0;
+    background-color: #79b2d0;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+.carousel-control-prev {
+    left: 0;
+    background-color: #79b2d0;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
 
 
 
