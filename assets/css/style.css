@@ -25,6 +25,11 @@ footer p{
     display: inline-flex;
     background-color: #407d9e;
     width: 100%;
+    font-size: 15px;
+    height: 50px;
+    padding-top: 6px;
+    padding-left: 3%;
+    border: 1px solid white;
 }
 .nav-link {
     color: white;
@@ -53,6 +58,7 @@ footer p{
 #navbar-1 .contenido_header .inicio .lista-principal {
     position: absolute;
     right: 0;
+    padding-right: 2%;
 }
 
 #navbar-1 .contenido_header .inicio .lista-principal li{
