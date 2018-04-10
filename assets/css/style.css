@@ -204,6 +204,7 @@ footer p{
 .w-100 {
     width: 75%!important;
     height: 350px;
+    margin: 0 auto;
 }
 .thumbnail-2{
 	background-color: #cccccc !important;
