@@ -5,13 +5,13 @@
 	<title>Alians Radius</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/img/logo.png">
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<!-- CSS local -->
 	<link rel="stylesheet" href="assets/css/style.css">
     <!-- Tipografías -->
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:700" rel="stylesheet">
 	<script src="https://use.fontawesome.com/aa0c728197.js"></script>
 </head>
 <body>
@@ -20,61 +20,86 @@
 			<div class="contenido_header">
 				<div class="inicio">
 					<ul class="lista-principal">
-						<li><a href="#">COMPANY</a></li>
-						<li><a href="#">NEWS</a></li>
-						<li><a href="#">AGENDA</a></li>
-						<li><a href="#">LINKS</a></li>
-						<li><a href="#">CONTACT</a></li>
+						<li><a href="index.html">PRODUCTOS</a></li>
+						<li><a href="compania.html">EMPRESA</a></li>
+						<li><a href="#">CONTACTO</a></li>
 					</ul>
 				</div>	
 				<div class="datos-contacto">
-					<p><i class="fa fa-phone" aria-hidden="true"></i> +56 9 993 35 506</p>
-					<p><i class="fa fa-envelope" aria-hidden="true"></i> mramirez@innova-lr.cl</p>
+					<span><a href="tel:+56999335506" style="color: white;"><i class="fa fa-phone" aria-hidden="true"></i> +56 9 993 35 506</a></span>
+					<p><a href="mailto:mramirez@innova-lr.cl" style="color: white;"><i class="fa fa-envelope" aria-hidden="true"></i> mramirez@innova-lr.cl</a></p>
 				</div>	
 			</div>
 		</div>
 	</section>
 
-	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	    </div>
-
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
-	        <li><a href="index.html">PRODUCTS<span class="sr-only">(current)</span></a></li>
-	        <li class="active"><a href="singlea.html">SINGLE USE</a></li>
-	        <li><a href="upper_alians_clavicle.html">UPPER LIMB & HAND<span class="sr-only"></span></a></li>
-	        <li><a href="lower_foot_large.html">LOWER LIMB & FOOT<span class="sr-only"></span></a></li>
-	        <li><a href="sports_tibia_activmotion.html">SPORTS MEDICINE<span class="sr-only"></span></a></li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
+	<nav class="nav">
+	  <a class="nav-link" href="index.html">PRODUCTOS</a>
+	  <a id="implantes" class="nav-link" href="#">IMPLANTES ESTERILIZADOS</a>
+	  <a id="superior" class="nav-link" href="#">EXTREMIDAD SUPERIOR Y MANO</a>
+	  <!--<a id="inferior" class="nav-link" href="#">EXTREMIDAD INFERIOR Y PIE</a>-->
+	  <!--<a id="medicina" class="nav-link" href="#">MEDICINA DEPORTIVA</a>-->
 	</nav>
 
-	<div id="lista-menu" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-		<ul>
-			<li><a href="upper_alians_clavicle.html">CLAVICLE</a></li>
-			<li><a href="upper_humerus_alians.html">HUMERUS</a></li>
-			<li><a href="upper_radius_alians_ulna.html">RADIUS & ULNA</a></li>
-			<li><a href="upper_hand_handmotion.html">HAND</a></li>
+	<div id="lista-menu" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: none;">
+		<ul style="margin-left: -10px;">
+			<li><a href="singlea.html">INITIAL A</a></li>
+			<li><a href="singlec.html">INITIAL C</a></li>
+			<li><a href="singler.html">INITIAL R</a></li>
+			<!--<li><a href="singles.html">INITIAL S</a></li>-->
 		</ul>
 	</div>
 
-	<div id="lista-menu-2" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	<div id="lista-menu-2" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: none;">
 		<ul>
-			<li><a href="upper_radius_alians_ulna.html">ALIANS ULNA</a></li>
-			<li><a href="upper_radius_alians_radius.html">ALIANS RADIUS</a></li>
-			<li><a href="upper_radius_alians_midshaft.html">ALIANS MIDSHAFT</a></li>
-			<li><a href="upper_radius_alians_specific.html">ALIANS FRAGMENT SPECIFIC</a></li>
+			<li><a id="clavicula" href="upper_alians_clavicle.html">CLAVICULA</a></li>
+			<li><a id="humero" href="#">HUMERO</a></li>
+			<li><a id="radio" href="singler.html">RADIO Y CUBITO</a></li>
+			<li><a id="mano" href="singles.html">MANO</a></li>
+		</ul>
+	</div>
+
+	<div id="lista-menu-3" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: none;">
+		<ul>
+			<li><a href="upper_alians_clavicle.html">ALIANS CLAVICULA</a></li>
+		</ul>
+	</div>
+
+	<div id="lista-menu-4" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: none;">
+		<ul>
+			<li><a href="upper_humerus_alians.html">HUMERO PROXIMAL</a></li>
+			<li><a href="upper_humerus_alians_elbow.html">CODO</a></li>
+		</ul>
+	</div>
+
+	<div id="lista-menu-5" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: none;">
+		<ul>
+			<li><a href="upper_radius_alians_ulna.html">ACORTAMIENTO CUBITAL</a></li>
+			<li><a href="upper_radius_alians_radius.html">RADIO DISTAL</a></li>
+			<li><a href="upper_radius_alians_midshaft.html">ANTEBRAZO</a></li>
+			<li><a href="upper_radius_alians_specific.html">FRAGMENTO ESPECÍFICO</a></li>
+		</ul>
+	</div>
+
+	<div id="lista-menu-6" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: none;">
+		<ul style="margin-left: 41%;">
+			<li><a href="upper_hand_handmotion.html">TORNILLOS CANULADOS</a></li>
+		</ul>
+	</div>
+
+	<!--<div id="lista-menu-7" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: none;">
+		<ul style="margin-left: 368px;">
+			<li><a href="upper_humerus_alians.html">FEMUR</a></li>
+			<li><a href="upper_humerus_alians_elbow.html">PIE</a></li>
+			<li><a href="upper_humerus_alians.html">TIBIA</a></li>
+			<li><a href="upper_humerus_alians_elbow.html">TOBILLO</a></li>
+		</ul>
+	</div>-->
+
+	<div id="lista-menu-8" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: none;">
+		<ul style="margin-left: 674px;">
+			<li><a href="sports_tibia_activmotion.html">ACTIVMOTION</a></li>
+			<li><a href="lower_tibia_activmotion-ligamento.html">ACTIVMOTION LIGAMENTO</a></li>
 		</ul>
 	</div>
 	
@@ -85,71 +110,68 @@
 
 	<section id="info-singlea">
 		<div class="container">
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 container-a">
-				<h4 class="title-bold">ALIANS ULNA 3/3</h4>
-				<br>
-				<h5 class="title-bold">INDICATIONS</h5>
-				<p>The implants of the Alians Radius range are intended for the fixation of extra and intro-articular fractures as well as distal radius osteotomies in adults.</p>
-				<br>
-				<h5 class="title-bold">TECHNICAL FEATURES</h5>
-				<p>Comprehensive range of plates: narrow, standard and wide head</p>
-				<p>Palmar plate running alongside the watershed line</p>
-				<p>Optimal design reducing the risks of soft tissue irritation thanks to the rounded distal edges of the plates</p>
-				<p>Window in the metaphyso-epiphyseal area for better visualization of the fracture reduction</p>
-				<p>Dualtec System 2 technology: polyaxial holes allowing +/- 10 angulation (20° cone)</p>
-				<p></p>
-				<br>
-				<h5 class="title-bold">IMPLANTS</h5>
-				<p>Narrow head plates available in 2 sizes, standard-head plates available in 3 sizes and wide head plates available in 1 size</p>
-				<p>Single fixation: Ø2.8mm locking screws, length 10 to 28mm (2mm increment), non-locking screws, length 10 to 28mm (2mm increment) and non-locking cortical screws, length 10 to 18mm (2mm increment).</p>
-				<br>
-				<h5 class="title-bold">SURGICAL TECHNIQUES: FINAL RESULTS</h5>
-				<br>
-				<h4 class="title-bold">PALMAR APPROACH</h4>
-				<img src="assets/img/img-aliansdistalradius.jpg">
-				<p>Standard head plate</p>
-				<a href="#">Further information</a>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 container-b">
-				<h5 class="title-bold">DOCUMENTS TO DOWNLOAD</h5>
-				<ul>
-					<li><a href="#">Alians Radius Brochure</a></li>
-					<li><a href="#">Alians Radius Surgical Technique</a></li>
-				</ul>
-				<br>
-				<br>
-				<h5 class="title-bold">REFERENCES</h5>
-				<p>Standard head plates</p>
-				<img src="assets/img/img-aliansdistalradius1.jpg">
-				<br>
-				<p>Narrow head plates</p>
-				<img src="assets/img/aliansdistalradius2.jpg">
-				<br>
-				<p>Wide head plates</p>
-				<img src="assets/img/aliansdistalradius3.jpg">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 container-a">
+					<h4 class="title-bold">ALIANS ULNA 3/3</h4>
+					<br>
+					<h5 class="title-bold">INDICATIONS</h5>
+					<p>The implants of the Alians Radius range are intended for the fixation of extra and intro-articular fractures as well as distal radius osteotomies in adults.</p>
+					<br>
+					<h5 class="title-bold">TECHNICAL FEATURES</h5>
+					<p>Comprehensive range of plates: narrow, standard and wide head</p>
+					<p>Palmar plate running alongside the watershed line</p>
+					<p>Optimal design reducing the risks of soft tissue irritation thanks to the rounded distal edges of the plates</p>
+					<p>Window in the metaphyso-epiphyseal area for better visualization of the fracture reduction</p>
+					<p>Dualtec System 2 technology: polyaxial holes allowing +/- 10 angulation (20° cone)</p>
+					<p></p>
+					<br>
+					<h5 class="title-bold">IMPLANTS</h5>
+					<p>Narrow head plates available in 2 sizes, standard-head plates available in 3 sizes and wide head plates available in 1 size</p>
+					<p>Single fixation: Ø2.8mm locking screws, length 10 to 28mm (2mm increment), non-locking screws, length 10 to 28mm (2mm increment) and non-locking cortical screws, length 10 to 18mm (2mm increment).</p>
+					<br>
+					<h5 class="title-bold">SURGICAL TECHNIQUES: FINAL RESULTS</h5>
+					<br>
+					<h4 class="title-bold">PALMAR APPROACH</h4>
+					<img src="assets/img/img-aliansdistalradius.jpg">
+					<p>Standard head plate</p>
+					<a href="assets/pdf/toen_aliansradius_ed14_hd__093886900_1731_13032017.pdf" hreflang="en" class="LinkFile" target="_blank">Further information</a>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 container-b">
+					<h5 class="title-bold">DOCUMENTS TO DOWNLOAD</h5>
+					<ul>
+						<li><a href="assets/pdf/brochureen_aliansradius_ed14_bd__039727800_1730_13032017.pdf" hreflang="en" class="LinkFile" target="_blank">Alians Radius Brochure</a></li>
+						<li><a href="assets/pdf/toen_aliansradius_ed14_hd__093886900_1731_13032017.pdf" hreflang="en" class="LinkFile" target="_blank">Alians Radius Surgical Technique</a></li>
+					</ul>
+					<br>
+					<br>
+					<h5 class="title-bold">REFERENCES</h5>
+					<p>Standard head plates</p>
+					<img src="assets/img/img-aliansdistalradius1.jpg">
+					<br>
+					<p>Narrow head plates</p>
+					<img src="assets/img/aliansdistalradius2.jpg">
+					<br>
+					<p>Wide head plates</p>
+					<img src="assets/img/aliansdistalradius3.jpg">
+				</div>
 			</div>
 		</div>
 	</section>
 
 	<section id="menu-down" class="text-center">
 		<div class="inicio">
-			<ul class="lista-principal">
-				<li><a href="#">COMPANY</a></li>
-				<li><a href="#">NEWS</a></li>
-				<li><a href="#">AGENDA</a></li>
-				<li><a href="#">CERTIFICATIONS</a></li>
-				<li><a href="#">INITIAL R</a></li>
-				<li><a href="#">INITIAL A</a></li>
-				<li><a href="#">BROCHURES</a></li>
-				<li><a href="#">VIDEOS</a></li>
-				<li><a href="#">LEGAL NOTICES</a></li>
-				<li><a href="#">CONTACT</a></li>
+			<ul class="lista-principal" style="padding: 0;">
+				<li><a href="index.html">PRODUCTOS</a></li>
+				<li><a href="compania.html">EMPRESA</a></li>
+				<li><a href="#">CONTACTO</a></li>
 			</ul>
 		</div>	
 	</section>
 
 	<footer class="text-center">
+		<br>
 		<h4>INNOVATIONS MEANS MOTION</h4>
+		<br>
 		<p>Administración: Avenida Apoquindo 6410 oficina 605 Las Condes</p>
 		<p>Comercial Avda. Libertador Bernardo O'Higgins 4050 Of. 1005</p>
 	</footer>
@@ -157,6 +179,9 @@
 	
 
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>

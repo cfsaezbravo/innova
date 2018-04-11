@@ -58,7 +58,7 @@ footer p{
 #navbar-1 .contenido_header .inicio .lista-principal {
     position: absolute;
     right: 0;
-    padding-right: 2%;
+    padding-right: 1%;
 }
 
 #navbar-1 .contenido_header .inicio .lista-principal li{
@@ -135,10 +135,10 @@ footer p{
 }
 
 #header-inicio .container-banner {
-    background-size: cover;
-    height: 429px;
     background-position: center;
     background-repeat: no-repeat;
+    height: 339px;
+    background-color: black;
 }
 .thumbnail-2 h3{
     text-decoration: underline;
@@ -147,12 +147,6 @@ footer p{
 
 /* SINGLE A */
 
-#header-inicio .container-fluid .banner-1{
-	background-size: cover;
-	background-position: center;
-	height: auto;
-	width: 100%;
-}
 .container-a{
 	padding: 75px;
 }
@@ -188,7 +182,7 @@ footer p{
 }
 
 #lista-menu ul, #lista-menu-2 ul, #lista-menu-3 ul, #lista-menu-4 ul, #lista-menu-5 ul, #lista-menu-6 ul, #lista-menu-7 ul, #lista-menu-8 ul{
-	margin-left: 123px;
+	margin-left: 13%;
     margin-bottom: 0px;
     height: 40px;
     padding-top: 7px;
@@ -215,6 +209,7 @@ footer p{
 }
 .thumbnail-2{
 	background-color: #cccccc !important;
+	padding: 5%;
 }
 .container-2{
 	padding: 65px;
