@@ -5,6 +5,7 @@ $('#implantes').click(function(){
 	$('#lista-menu-4').css("display", "none");
 	$('#lista-menu-5').css("display", "none");
 	$('#lista-menu-8').css("display", "none");
+	$('#lista-menu-9').css("display", "none");
 });
 
 $('#superior').click(function(){
@@ -15,6 +16,7 @@ $('#superior').click(function(){
 	$('#lista-menu-5').css("display", "none");
 	$('#lista-menu-6').css("display", "none");
 	$('#lista-menu-8').css("display", "none");
+	$('#lista-menu-9').css("display", "none");
 });
 
 /*$('#inferior').click(function(){
@@ -26,6 +28,7 @@ $('#superior').click(function(){
 	$('#lista-menu-5').css("display", "none");
 	$('#lista-menu-6').css("display", "none");
 	$('#lista-menu-8').css("display", "none");
+	$('#lista-menu-9').css("display", "none");
 });*/
 
 $('#medicina').click(function(){
@@ -36,6 +39,7 @@ $('#medicina').click(function(){
 	$('#lista-menu-4').css("display", "none");
 	$('#lista-menu-5').css("display", "none");
 	$('#lista-menu-6').css("display", "none");
+	$('#lista-menu-9').css("display", "none");
 });
 
 $('#clavicula').click(function(){
@@ -44,6 +48,7 @@ $('#clavicula').click(function(){
 	$('#lista-menu-6').css("display", "none");
 	$('#lista-menu-4').css("display", "none");
 	$('#lista-menu-5').css("display", "none");
+	$('#lista-menu-9').css("display", "none");
 });
 
 $('#humero').click(function(){
@@ -52,6 +57,7 @@ $('#humero').click(function(){
 	$('#lista-menu-3').css("display", "none");
 	$('#lista-menu-6').css("display", "none");
 	$('#lista-menu-5').css("display", "none");
+	$('#lista-menu-9').css("display", "none");
 });
 
 $('#radio').click(function(){
@@ -60,6 +66,7 @@ $('#radio').click(function(){
 	$('#lista-menu-3').css("display", "none");
 	$('#lista-menu-4').css("display", "none");
 	$('#lista-menu-6').css("display", "none");
+	$('#lista-menu-9').css("display", "none");
 });
 
 $('#mano').click(function(){
@@ -68,5 +75,15 @@ $('#mano').click(function(){
 	$('#lista-menu-3').css("display", "none");
 	$('#lista-menu-4').css("display", "none");
 	$('#lista-menu-5').css("display", "none");
+	$('#lista-menu-9').css("display", "none");
 });
+
+$('#initials').click(function(){
+	event.preventDefault()
+	$('#lista-menu-9').css("display", "inline-flex");
+	$('#lista-menu-6').css("display", "none");
+	$('#lista-menu-3').css("display", "none");
+	$('#lista-menu-4').css("display", "none");
+	$('#lista-menu-5').css("display", "none");
+})
 
