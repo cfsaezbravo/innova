@@ -232,6 +232,9 @@ footer p{
     margin-top: 10%;
     margin-left: 5%;
 }
-
+.initial-range ul li{
+	display: inline;
+	text-decoration: none;
+}
 
 
